@@ -13,8 +13,7 @@ var holdNotes = new Map();
 
 function preload() {
     loopSong = loadSound("./assets/sounds/loop.mp3");
-
-    noteImage = loadImage('note.png'); // Load the image
+    noteImage = loadImage("./assets/images/note.png"); // Load the image
     for (let i = 1; i < numberOfNotes + 1; i++) {
         notes.push(loadSound("./assets/sounds/"+i+".mp3"));
     }
