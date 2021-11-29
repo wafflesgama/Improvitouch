@@ -12,7 +12,7 @@ var visualNotes = new Array();
 var holdNotes = new Map();
 
 function preload() {
-    loopSong = loadSound("./assets/sounds/loop.mp3");
+    loopSong = loadSound("./assets/sounds/loop.wav");
     noteImage = loadImage("./assets/images/note.png"); // Load the image
     for (let i = 1; i < numberOfNotes + 1; i++) {
         notes.push(loadSound("./assets/sounds/"+i+".mp3"));
