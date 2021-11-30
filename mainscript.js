@@ -52,16 +52,10 @@ function draw() {
             holdNotes.set(touches[i].id, -10);
         }
 
-
-        //print(touches[i]);
         let invertedNote = Math.round(touches[i].y / (windowHeight / (notes.length - 1)));
         var note = (notes.length - 1) - invertedNote;
 
         if (note < 1 || note >= notes.length) continue;
-
-        //print("touches" + touches[i]);
-        //  print("invertedNote " + invertedNote);
-        // print("note " + note);
 
         if (holdNotes.get(touches[i].id) != note) {
             notes[note].play();
@@ -78,6 +72,7 @@ function addVisualNote(xPos, yPos) {
   print("addVisualNote");
     visualNotes.push({ opacity: 255, x: xPos+noteOffsetX, y: yPos+noteOffsetY });
 }
+
 function clearEndVisualNotes(){
     for (let index = 0; index < visualNotes.length; index++) {
         if(visualNotes.opacity<=0)

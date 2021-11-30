@@ -8,8 +8,10 @@
     position: absolute;
     transform: translate(-50%, -50%);
     text-align: center;
-    pointer-events:non
-    
+    pointer-events:none;
+    opacity: 0;
+    animation: forwards fadeOut ease-in-out 9s;
+    animation-delay: 2s;
 }
 
 .title{
@@ -17,9 +19,20 @@
 }
 .author{
     font-size: 2rem;
-    
 }
 .instruc{
     margin-top: 10%;
     font-size: 1.5rem;
+}
+
+@keyframes fadeOut {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
 }
