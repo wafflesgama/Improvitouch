@@ -4,7 +4,7 @@ A Computer Audition & Generative Music Project by Guilherme Silva Gama
 
 
 
-  Demo Video             |  [Live demo link](https://wafflesgama.github.io/Improvitouch/)
+  Demo Video             |  [Live demo link](https://editor.p5js.org/up202100735/full/s3FgeU9cr)
 :-------------------------:|:-------------------------:
 ![](readmeAssets/demoVideo.gif)  |  ![](readmeAssets/QR.png)
 
